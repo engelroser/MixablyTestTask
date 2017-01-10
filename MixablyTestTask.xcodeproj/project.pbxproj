@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F9B2E520F0119C5A3C2911D /* Pods_MixablyTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1ABC1F7480EC4060AC84E /* Pods_MixablyTestTask.framework */; };
+		84143E261E24798E0055166D /* raptorcop_raptorcop_angel1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84143E251E24798E0055166D /* raptorcop_raptorcop_angel1.png */; };
+		84143E281E2488BA0055166D /* ItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84143E271E2488BA0055166D /* ItemsTableViewCell.swift */; };
+		84143E2A1E2497EB0055166D /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84143E291E2497EB0055166D /* OverlayView.xib */; };
+		84143E2C1E2498B80055166D /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84143E2B1E2498B80055166D /* ExampleOverlayView.swift */; };
+		84C508161E23F37C0007B4D8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C508151E23F37C0007B4D8 /* MBProgressHUD.m */; };
 		84D60E1A1E2380B600CC680D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D60E191E2380B600CC680D /* AppDelegate.swift */; };
 		84D60E1C1E2380B600CC680D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D60E1B1E2380B600CC680D /* ViewController.swift */; };
 		84D60E1F1E2380B600CC680D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D60E1D1E2380B600CC680D /* Main.storyboard */; };
@@ -14,6 +20,9 @@
 		84D60E241E2380B600CC680D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D60E221E2380B600CC680D /* LaunchScreen.storyboard */; };
 		84D60E2F1E2380B700CC680D /* MixablyTestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D60E2E1E2380B700CC680D /* MixablyTestTaskTests.swift */; };
 		84D60E3A1E2380B700CC680D /* MixablyTestTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D60E391E2380B700CC680D /* MixablyTestTaskUITests.swift */; };
+		84D60E4F1E23861000CC680D /* MTTBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D60E4E1E23861000CC680D /* MTTBaseViewController.swift */; };
+		84D60E521E23863F00CC680D /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D60E511E23863F00CC680D /* ItemsViewController.swift */; };
+		84D60E551E23866200CC680D /* CheckOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D60E541E23866200CC680D /* CheckOutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +43,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A9DCE59FDB38F5D6F7ECFD /* Pods_MixablyTestTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MixablyTestTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		038234BC01EC6F21E565E49D /* Pods-MixablyTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixablyTestTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-MixablyTestTask/Pods-MixablyTestTask.release.xcconfig"; sourceTree = "<group>"; };
+		13692CDBEF601619AB18A49A /* Pods_MixablyTestTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MixablyTestTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B1ABC1F7480EC4060AC84E /* Pods_MixablyTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MixablyTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84143E251E24798E0055166D /* raptorcop_raptorcop_angel1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raptorcop_raptorcop_angel1.png; sourceTree = "<group>"; };
+		84143E271E2488BA0055166D /* ItemsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsTableViewCell.swift; sourceTree = "<group>"; };
+		84143E291E2497EB0055166D /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		84143E2B1E2498B80055166D /* ExampleOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOverlayView.swift; sourceTree = "<group>"; };
+		84C508141E23F37C0007B4D8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		84C508151E23F37C0007B4D8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		84C508191E23F3DE0007B4D8 /* MixablyTestTask-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MixablyTestTask-Bridging-Header.h"; sourceTree = "<group>"; };
 		84D60E161E2380B600CC680D /* MixablyTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixablyTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D60E191E2380B600CC680D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D60E1B1E2380B600CC680D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84D60E1E1E2380B600CC680D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84D60E201E2380B600CC680D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D60E201E2380B600CC680D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		84D60E231E2380B600CC680D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84D60E251E2380B600CC680D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D60E251E2380B600CC680D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		84D60E2A1E2380B700CC680D /* MixablyTestTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixablyTestTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D60E2E1E2380B700CC680D /* MixablyTestTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixablyTestTaskTests.swift; sourceTree = "<group>"; };
 		84D60E301E2380B700CC680D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D60E351E2380B700CC680D /* MixablyTestTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixablyTestTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D60E391E2380B700CC680D /* MixablyTestTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixablyTestTaskUITests.swift; sourceTree = "<group>"; };
 		84D60E3B1E2380B700CC680D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D60E4C1E23849500CC680D /* MixablyTestTask.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixablyTestTask.pch; sourceTree = "<group>"; };
+		84D60E4E1E23861000CC680D /* MTTBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTTBaseViewController.swift; sourceTree = "<group>"; };
+		84D60E511E23863F00CC680D /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		84D60E541E23866200CC680D /* CheckOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckOutViewController.swift; sourceTree = "<group>"; };
+		9672A9ECAB779C88117B49BE /* Pods-MixablyTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixablyTestTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MixablyTestTask/Pods-MixablyTestTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F9B2E520F0119C5A3C2911D /* Pods_MixablyTestTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +100,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3ECF866788BD1AEFB590BAFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9672A9ECAB779C88117B49BE /* Pods-MixablyTestTask.debug.xcconfig */,
+				038234BC01EC6F21E565E49D /* Pods-MixablyTestTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84C508131E23F37C0007B4D8 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				84C508141E23F37C0007B4D8 /* MBProgressHUD.h */,
+				84C508151E23F37C0007B4D8 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		84D60E0D1E2380B600CC680D = {
 			isa = PBXGroup;
 			children = (
+				84143E251E24798E0055166D /* raptorcop_raptorcop_angel1.png */,
 				84D60E181E2380B600CC680D /* MixablyTestTask */,
 				84D60E2D1E2380B700CC680D /* MixablyTestTaskTests */,
 				84D60E381E2380B700CC680D /* MixablyTestTaskUITests */,
 				84D60E171E2380B600CC680D /* Products */,
+				3ECF866788BD1AEFB590BAFA /* Pods */,
+				EE628CEA95226EFEC75E0EEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +145,12 @@
 			isa = PBXGroup;
 			children = (
 				84D60E191E2380B600CC680D /* AppDelegate.swift */,
+				84D60E4B1E23845400CC680D /* Classes */,
+				84D60E4A1E23844900CC680D /* Resources */,
+				84D60E481E23842B00CC680D /* ViewControllers */,
+				84D60E471E23841D00CC680D /* Storyboard */,
+				84D60E491E23843D00CC680D /* Support Files */,
 				84D60E1B1E2380B600CC680D /* ViewController.swift */,
-				84D60E1D1E2380B600CC680D /* Main.storyboard */,
-				84D60E201E2380B600CC680D /* Assets.xcassets */,
-				84D60E221E2380B600CC680D /* LaunchScreen.storyboard */,
-				84D60E251E2380B600CC680D /* Info.plist */,
 			);
 			path = MixablyTestTask;
 			sourceTree = "<group>";
@@ -125,6 +173,88 @@
 			path = MixablyTestTaskUITests;
 			sourceTree = "<group>";
 		};
+		84D60E471E23841D00CC680D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				84D60E1D1E2380B600CC680D /* Main.storyboard */,
+				84D60E221E2380B600CC680D /* LaunchScreen.storyboard */,
+				84143E291E2497EB0055166D /* OverlayView.xib */,
+				84143E2B1E2498B80055166D /* ExampleOverlayView.swift */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		84D60E481E23842B00CC680D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84D60E531E23865200CC680D /* CheckoutViewController */,
+				84D60E501E23862600CC680D /* ItemsViewController */,
+				84D60E4D1E2385F600CC680D /* MTTBaseViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84D60E491E23843D00CC680D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D60E201E2380B600CC680D /* Assets.xcassets */,
+				84D60E251E2380B600CC680D /* Info.plist */,
+				84D60E4C1E23849500CC680D /* MixablyTestTask.pch */,
+				84C508191E23F3DE0007B4D8 /* MixablyTestTask-Bridging-Header.h */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		84D60E4A1E23844900CC680D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84D60E4B1E23845400CC680D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84C508131E23F37C0007B4D8 /* MBProgressHUD */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		84D60E4D1E2385F600CC680D /* MTTBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84D60E4E1E23861000CC680D /* MTTBaseViewController.swift */,
+			);
+			path = MTTBaseViewController;
+			sourceTree = "<group>";
+		};
+		84D60E501E23862600CC680D /* ItemsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84D60E511E23863F00CC680D /* ItemsViewController.swift */,
+				84143E271E2488BA0055166D /* ItemsTableViewCell.swift */,
+			);
+			path = ItemsViewController;
+			sourceTree = "<group>";
+		};
+		84D60E531E23865200CC680D /* CheckoutViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84D60E541E23866200CC680D /* CheckOutViewController.swift */,
+			);
+			path = CheckoutViewController;
+			sourceTree = "<group>";
+		};
+		EE628CEA95226EFEC75E0EEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59B1ABC1F7480EC4060AC84E /* Pods_MixablyTestTask.framework */,
+				00A9DCE59FDB38F5D6F7ECFD /* Pods_MixablyTestTaskTests.framework */,
+				13692CDBEF601619AB18A49A /* Pods_MixablyTestTaskUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84D60E3E1E2380B700CC680D /* Build configuration list for PBXNativeTarget "MixablyTestTask" */;
 			buildPhases = (
+				1399C5D6B11EB9C119289E1E /* [CP] Check Pods Manifest.lock */,
 				84D60E121E2380B600CC680D /* Sources */,
 				84D60E131E2380B600CC680D /* Frameworks */,
 				84D60E141E2380B600CC680D /* Resources */,
+				007F1860439340EFEF581AA4 /* [CP] Embed Pods Frameworks */,
+				5FCA3C3107D298C65138514B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,7 +367,9 @@
 			files = (
 				84D60E241E2380B600CC680D /* LaunchScreen.storyboard in Resources */,
 				84D60E211E2380B600CC680D /* Assets.xcassets in Resources */,
+				84143E2A1E2497EB0055166D /* OverlayView.xib in Resources */,
 				84D60E1F1E2380B600CC680D /* Main.storyboard in Resources */,
+				84143E261E24798E0055166D /* raptorcop_raptorcop_angel1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +389,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		007F1860439340EFEF581AA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixablyTestTask/Pods-MixablyTestTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1399C5D6B11EB9C119289E1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FCA3C3107D298C65138514B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixablyTestTask/Pods-MixablyTestTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84D60E121E2380B600CC680D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				84D60E1C1E2380B600CC680D /* ViewController.swift in Sources */,
+				84C508161E23F37C0007B4D8 /* MBProgressHUD.m in Sources */,
+				84D60E551E23866200CC680D /* CheckOutViewController.swift in Sources */,
+				84143E281E2488BA0055166D /* ItemsTableViewCell.swift in Sources */,
+				84143E2C1E2498B80055166D /* ExampleOverlayView.swift in Sources */,
+				84D60E521E23863F00CC680D /* ItemsViewController.swift in Sources */,
 				84D60E1A1E2380B600CC680D /* AppDelegate.swift in Sources */,
+				84D60E4F1E23861000CC680D /* MTTBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +491,7 @@
 				84D60E1E1E2380B600CC680D /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		84D60E221E2380B600CC680D /* LaunchScreen.storyboard */ = {
@@ -310,6 +500,7 @@
 				84D60E231E2380B600CC680D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -410,26 +601,36 @@
 		};
 		84D60E3F1E2380B700CC680D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9672A9ECAB779C88117B49BE /* Pods-MixablyTestTask.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)\nYES";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT)/Support Files/MixablyTestTask.pch";
 				INFOPLIST_FILE = MixablyTestTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appledev.MixablyTestTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/Support Files/MixablyTestTask-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		84D60E401E2380B700CC680D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 038234BC01EC6F21E565E49D /* Pods-MixablyTestTask.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)\nYES";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT)/Support Files/MixablyTestTask.pch";
 				INFOPLIST_FILE = MixablyTestTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appledev.MixablyTestTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/Support Files/MixablyTestTask-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -507,6 +708,7 @@
 				84D60E401E2380B700CC680D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84D60E411E2380B700CC680D /* Build configuration list for PBXNativeTarget "MixablyTestTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +717,7 @@
 				84D60E431E2380B700CC680D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84D60E441E2380B700CC680D /* Build configuration list for PBXNativeTarget "MixablyTestTaskUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +726,7 @@
 				84D60E461E2380B700CC680D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
